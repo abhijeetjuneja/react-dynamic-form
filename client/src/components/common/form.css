@@ -1,0 +1,86 @@
+.dynamic-form {
+    box-shadow: 2px 6px 8px grey;
+    margin-bottom: 5px;
+    padding : 20px;
+    margin: 30px 2px;
+    max-width: 600px;
+    color:white;
+}
+.dynamic-form .form-group {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dynamic-form .form-label {
+    text-align: left;
+    color: #2E86C1;
+}
+.dynamic-form .form-input{
+    margin-top: 5px;
+    line-height: 1.5em;
+}
+
+.dynamic-form select{
+    margin-top: 5px;
+    line-height: 1.5em;
+}
+
+.dynamic-form .form-group button{
+    padding: .5em;
+}
+
+.dynamic-form .form-group-radio {
+    display: flex;
+    flex-direction: row;
+}
+.dynamic-form .form-group-radio .checked {
+    color : black;
+}
+
+.form-group-radio label {
+    color : black;
+
+}
+
+
+.form-group-radio input {
+    color : white;
+    background-color: black;
+}
+
+.dynamic-form .form-group-checkbox {
+    display: flex;
+    flex-direction: row;
+    color : white;
+}
+
+.form-group-checkbox label {
+    color:black;
+}
+
+.form-group-checkbox input {
+    color : white;
+}
+
+.form-title {
+    text-align: left;
+}
+
+.form-actions {
+    display: flex;
+}
+.form-actions button {
+    width: 80px;
+
+    line-height: 1.5em;
+    background-color: #3498DB;
+    color: white;
+    border-radius: 4px;
+    border:0;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom:5px;
+}
