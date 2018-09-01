@@ -1,11 +1,14 @@
 # Dynamic Forms in React
-React Dynamic Forms
+React Dynamic Forms generates simple forms based on output of an API.
 
 ## Features
 
-  1. Support for all inout types except files
+  1. Support for all input types except files
   2. Easy to use
-
+  3. For external use import form from 'client/src/components/common/form'
+  4. Props - type,name,key,value,options(For select field),required(optional),regex
+  5. Regex Validation using Regex Prop from API
+  6. Support for fields depending on other fields
 
 ## Prerequisites
 
