@@ -1,5 +1,4 @@
 {
-  "secret"		:	"a232fr45c66#$%%T5tv6NSJNSD12J@HU3SN",
   "fields"		:	[{"key" : "name","type" : "text" , "name" : "name" , "key" : "name" , "label" : "Name","regex" : "^[a-z ,.'-]+$", "required" : true},
   					{"key" : "age","type" : "number" , "name" : "age" , "key" : "age" , "label" : "Age","regex" : "^(0?[1-9]|[1-9][0-9]|[1][1-9][1-9]|200)$", "required" : true},
   					{"key" : "seeking","type" : "radio" , "name" : "seeking" , "key" : "seeking" , "label" : "Seeking", "options":[
@@ -11,6 +10,6 @@
 	                	{"key":"bangalore","name":"city","label":"Bangalore","value":"Bangalore"},
 	                	{"key":"kerala","name":"city","label":"Kerala","value":"Kerala"}
   					], "required" : true}
-					]
+					]	
 }
   

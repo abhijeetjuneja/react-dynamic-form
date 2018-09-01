@@ -9,6 +9,7 @@ React Dynamic Forms generates simple forms based on output of an API.
   4. Props - type,name,key,value,options(For select field),required(optional),regex
   5. Regex Validation using Regex Prop from API
   6. Support for fields depending on other fields
+  7. Fields can be changed for API from 'config/config.json'
 
 ## Prerequisites
 
