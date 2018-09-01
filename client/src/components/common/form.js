@@ -56,6 +56,7 @@ export default class DynamicForm extends React.Component {
     }
 
     onChange = (e, key,input,type="single") => {
+        console.log(e.target.value);
         if (type === "single") {
             this.setState({
                 [key]: e.target.value  
@@ -63,8 +64,7 @@ export default class DynamicForm extends React.Component {
                 if(input == 'radio')
                 {
                     this.validateOne(key);
-                }
-            
+                }            
             });
         } else {
             // Array of values (e.g. checkbox): TODO: Optimization needed.
@@ -169,7 +169,7 @@ export default class DynamicForm extends React.Component {
                             >{o.value}</option>
                      );
                 });
-                input = <select value={value} onChange={(e)=>{this.onChange(e, m.key)}}>{input}</select>;
+                input = <select value={this.state[name]} onChange={(e)=>{this.onChange(e, m.key)}}>{input}</select>;
              }
 
              if (type == "checkbox") {
