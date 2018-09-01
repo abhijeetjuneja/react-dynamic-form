@@ -34,15 +34,6 @@ mongoose.connection.once('open', function() {
 
 });
 
-// include all our model files
-fs.readdirSync('./models').forEach(function(file){
-  // check if the file is js or not
-  if(file.indexOf('.js'))
-    // if it is js then include the file from that folder into our express app using require
-    require('./models/'+file);
-
-});// end for each
-
 
 // include controllers
 fs.readdirSync('./controllers').forEach(function(file){
